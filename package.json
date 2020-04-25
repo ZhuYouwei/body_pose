@@ -9,11 +9,12 @@
   ],
   "main": "src/index.tsx",
   "dependencies": {
+    "@teachablemachine/pose": "^0.8.6",
+    "@tensorflow-models/posenet": "latest",
+    "@tensorflow/tfjs": "latest",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-scripts": "^3.4.0",
-    "@tensorflow/tfjs": "latest",
-    "@tensorflow-models/posenet": "latest"
+    "react-scripts": "^3.4.0"
   },
   "devDependencies": {
     "@types/react": "16.9.19",

@@ -3,6 +3,8 @@ import {useEffect, useRef, useState} from "react";
 import * as posenet from '@tensorflow-models/posenet';
 import {Pose, PoseNet, ModelConfig} from "@tensorflow-models/posenet";
 import {isMobile} from "./util";
+import * as tmPose from '@teachablemachine/pose';
+import {CustomPoseNet} from "@teachablemachine/pose";
 
 
 const config = {
