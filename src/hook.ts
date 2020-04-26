@@ -10,7 +10,7 @@ import {CustomPoseNet} from "@teachablemachine/pose";
 const config = {
     architecture: 'MobileNetV1',
     outputStride: 16,
-    inputResolution: {width: 640, height: 480},
+    inputResolution: {width: 300, height: 300},
     multiplier: isMobile() ? 0.50 : 0.75,
     quantBytes: 2
 }
